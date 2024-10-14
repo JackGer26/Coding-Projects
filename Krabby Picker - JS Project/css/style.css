@@ -1,0 +1,82 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+.hidden{
+	display: none;
+}
+
+.yes {
+  color: limegreen;
+}
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background-image: url("../img/backgroundTwo.jfif");
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+}
+
+h1 {
+  color: white;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+img {
+  width: 32%;
+  height: 8%;
+}
+
+
+#floated > section {
+  float: left;
+  color: red;
+}
+
+#floated > #photos {
+  width: 50%;
+  padding-right: 10%;
+}
+
+
+
+#ingredientsSection {
+  padding-left: 20%;
+  padding-bottom: 2%;
+  margin-top: -2%;
+  line-height: 3.7em;
+  width: 50%;
+  font-size: 1.8em;
+  line-height: 1.5em;
+}
+
+#burgerFinal {
+  clear: left;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+}
+
+button {
+  padding: 0.4% 6%;
+  border-radius: 5%;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
